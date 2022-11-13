@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaTwitter} from 'react-icons/fa'
