@@ -1,9 +1,9 @@
-
+import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaTwitter} from 'react-icons/fa'
 import {IoLogoWhatsapp} from 'react-icons/io'
-import React, { useRef } from 'react'
+import {useRef} from 'react';
 import emailjs from 'emailjs-com'
 
 const contact = () => {
@@ -13,11 +13,8 @@ const contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_5mswf59', 'template_aazbh8y', form.current, 'cwkTGeq1tulRsKMGP')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+      
+    e.target.reset()
   };
   return (
     <section id='contact'>
