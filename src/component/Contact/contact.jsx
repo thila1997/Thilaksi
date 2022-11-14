@@ -1,9 +1,9 @@
-import React from 'react'
+
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaTwitter} from 'react-icons/fa'
 import {IoLogoWhatsapp} from 'react-icons/io'
-import React, { useRef } from 'react';
+import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 const contact = () => {
