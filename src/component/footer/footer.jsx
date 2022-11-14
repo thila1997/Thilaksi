@@ -3,7 +3,13 @@ import './footer.css'
 
 const footer = () => {
   return (
-    <div>footer</div>
+    <div>
+      <footer>
+        <div className='footer__copyright'>
+          <small>&copy; Thilaksi Gunathilaka | All Rights Reserved. </small>
+        </div>
+      </footer>
+    </div>
   )
 }
 
